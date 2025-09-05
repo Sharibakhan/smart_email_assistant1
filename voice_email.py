@@ -27,7 +27,7 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
-# --- Voice Input (to get recipient name) ---
+# Voice Input (to get recipient name) 
 def get_voice_input(prompt_text="Speak now, please say the full name."):
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -43,7 +43,7 @@ def get_voice_input(prompt_text="Speak now, please say the full name."):
         print("❌ Could not recognize speech:", e)
         return None
 
-# --- Fuzzy Match Email by Name ---
+# Fuzzy Match Email by Name 
 def get_email_by_name(spoken_name):
     names = recipients["Name"].tolist()
     best_match, score, idx = process.extractOne(spoken_name, names)
@@ -53,7 +53,7 @@ def get_email_by_name(spoken_name):
     else:
         return None, None
 
-# --- Gemini: Formalize any casual text ---
+# Gemini: Formalize any casual text 
 def formalize_email(casual_text, receiver_name, sender_name):
     prompt = f"""
     You are an AI assistant that converts spoken casual text into a clear and professional email. 
@@ -80,7 +80,7 @@ def formalize_email(casual_text, receiver_name, sender_name):
 
 
 
-# --- Send Email ---
+# Send Email 
 def send_email(receiver_email, subject, body):
     msg = MIMEText(body)
     msg["Subject"] = subject
@@ -97,7 +97,7 @@ def send_email(receiver_email, subject, body):
         speak("Email failed to send.")
         print("❌ Email failed:", e)
 
-# --- MAIN ---
+# MAIN 
 def main():
     # Step 1: Get recipient name
     spoken_name = get_voice_input("Speak the recipient's full name.")
@@ -128,3 +128,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
