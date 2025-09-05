@@ -1,4 +1,4 @@
-Perfect bro 😎 tum chahti ho ke **requirements.txt** + **README style setup guide** dono ek jagah ready ho jaye, taaki easily kisi ko bhi share kar sako. Main tumhare given text ko improve karke requirements bhi add kar deta hoon 👇
+
 
 ---
 
@@ -65,3 +65,4 @@ python app.py
 ```
 
 Then just **speak the recipient’s name and your message** – the system will formalize it and send the email automatically.
+
