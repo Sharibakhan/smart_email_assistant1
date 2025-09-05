@@ -36,10 +36,6 @@ GMAIL_APP_PASSWORD=<Your Gmail App Password>
 MY_NAME=<Your Name>
 ```
 
-⚠️ Note:
-
-* Gmail ke liye **App Password** banana hoga (normal Gmail password work nahi karega).
-* Agar multiple recipients handle karne hain, to `recipients.csv` file maintain karo:
 
 Example `recipients.csv`:
 
@@ -65,4 +61,5 @@ python app.py
 ```
 
 Then just **speak the recipient’s name and your message** – the system will formalize it and send the email automatically.
+
 
