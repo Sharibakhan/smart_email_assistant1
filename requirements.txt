@@ -1,0 +1,9 @@
+sounddevice
+scipy
+SpeechRecognition
+pyttsx3
+python-dotenv
+google-generativeai
+pandas
+rapidfuzz
+

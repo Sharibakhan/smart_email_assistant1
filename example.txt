@@ -1,0 +1,16 @@
+🔊 Speak the recipient's full name.
+📝 You said: Khan aur Khan Shahrukh
+🔊 Matched with Shariba Khan
+🔊 Speak the message you want to send.
+📝 You said: usko bolo ki kal 6 September ko usko sari report submit karni hai morning mein
+📝 Formal Email: Subject: Report Submission Deadline
+
+Dear Shariba Khan,
+
+Please be informed that all reports are due on September 6th by the morning.
+
+Sincerely,
+
+Shariba Khan
+🔊 Email sent successfully to khanshariba667@gmail.com
+✅ Email sent successfully to khanshariba667@gmail.com
